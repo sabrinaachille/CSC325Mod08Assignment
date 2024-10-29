@@ -23,7 +23,7 @@ public class Student extends Human{
     public int getCredits() {
         return credits;
     }
-    // constructor that takes three paras, two inherited from Human and the Student's credits var
+    // constructor that takes three paras, two inherited from Human and the Student's credits variable
     public Student(String name, short age, int credits) {
         // initialize name and age from Human
         super(name, age);
@@ -60,9 +60,11 @@ public class Student extends Human{
     }
 
     // ToDo 9: Add a toString method for the Student class
+    // toString returns information about the Student
     public String toString(){
         return "Student name: " + getName() + ", age: " + getAge() + ", gpa: " + getGpa() + ", credits: " + getCredits() ;
     }
 
     // ToDo 4: Add comments to your code
+    // Here I updated the Student class with constructors, getters, setter
 }

@@ -4,6 +4,7 @@ import static java.lang.Character.getName;
 
 public class Freshman extends Student {
     // Todo 7: Create two classes for Freshman and Senior
+    // keyword "extends" Freshman acquires properties of Student and is a subclass/child of Student class
 
     // constructor 3 paras
     public Freshman(String name, short age, int credits) {

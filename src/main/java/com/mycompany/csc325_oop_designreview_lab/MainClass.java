@@ -38,7 +38,7 @@ public class MainClass {
 		// ToDo 12: Set the gpa of the student using the scanner and user
 		// 			input and then print the output.
 	 	// prompts user to enter a gpa
-	 	System.out.println("Enter the gpa of the student: ");
+	 	System.out.println("Please enter the student's GPA: ");
 	 	// gpa stores user input
 		gpa = sc.nextFloat();
 		// gpa is set to std1
@@ -51,7 +51,9 @@ public class MainClass {
 		System.out.println(std3);
 
 		// ToDo 13: add comments and explain your code
-
+		// For this assignment, I completed the implementation of the Student, Senior and Freshman class,
+	 	// ensuring proper data encapsulation and
+	 	// refining methods by overriding and overloading to enhance functionality.
 	}
 
 }

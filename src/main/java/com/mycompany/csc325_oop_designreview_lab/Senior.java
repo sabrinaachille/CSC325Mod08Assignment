@@ -4,6 +4,7 @@ import java.sql.SQLOutput;
 
 public class Senior extends Student{
     // Todo 7: Create two classes for Freshman and Senior
+    // keyword "extends" Senior acquires properties of Student and is a subclass/child of Student class
 
     // constructor with 3 paras
     public Senior(String name, short age, int credits) {
